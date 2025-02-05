@@ -3,4 +3,4 @@ project(cloven)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cloven main.cpp)
+add_executable(cloven Cloven.cpp)
