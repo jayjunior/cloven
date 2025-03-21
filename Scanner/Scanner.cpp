@@ -1,12 +1,19 @@
+//
+// Created by Jay Junior  on 21.03.25.
+//
 
 
+#include <unordered_map>
 #ifndef SCANNER_H
 #define SCANNER_H
 
 #include <string>
 #include <vector>
-#include "Token.h"
-#include "Cloven.h"
+#include "../Tokens/TokenType.h"
+#include "../Tokens/Token.h"
+#include "../Cloven.h"
+
+
 namespace  cloven {
     class Scanner {
     public:

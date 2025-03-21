@@ -1,3 +1,6 @@
+//
+// Created by Jay Junior  on 21.03.25.
+//
 
 #ifndef TOKENTYPE_H
 #define TOKENTYPE_H
@@ -20,6 +23,7 @@ enum TokenType {
     PRINT, RETURN, SUPER, THIS, TRUE, VAR, WHILE,
 
     EOFF,
+
 
 };
 #endif //TOKENTYPE_H

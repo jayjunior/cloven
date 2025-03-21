@@ -1,11 +1,14 @@
-
-
+//
+// Created by Jay Junior  on 21.03.25.
+//
 #ifndef TOKEN_H
 #define TOKEN_H
 
 #include <any>
 #include <string>
 #include "TokenType.h"
+#include "Token.h"
+
 namespace  cloven {
     class Token {
     public:
@@ -16,7 +19,7 @@ namespace  cloven {
             this->literal = literal;
         }
         friend std::ostream& operator<<(std::ostream& os, const Token& token) {
-            os << token.type << " " << token.lexeme;
+            os << token.lexeme;
             return os;
         }
     private:
